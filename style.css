@@ -1,0 +1,27 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  min-width:100%;
+  min-height:100%;
+  font: Arial 14px;
+}
+.container{
+  width:100%;
+  text-align:center;
+}
+
+.header{
+  background-color:lightblue;
+  font-family:Arial;
+  font-size:14pt;
+  text-align:center;
+}
+button{
+  background-color:#910000;
+  color:whitesmoke;
+  font-size:10pt;
+  border-radius:10px;
+}
+button:nth-child(even){
+  background-color:gray;
+}
